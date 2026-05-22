@@ -12,7 +12,7 @@ balance = st.number_input(
     "Enter your Balance",
     min_value=0.0,
     step=100.0,
-    format="%.2f"
+    format="%.5f"
 )
 
 risk_percentage = st.number_input(
@@ -20,7 +20,7 @@ risk_percentage = st.number_input(
     min_value=0.0,
     max_value=100.0,
     step=0.1,
-    format="%.2f"
+    format="%.5f"
 )
 
 current_price = st.number_input(
@@ -32,7 +32,7 @@ current_price = st.number_input(
 stoploss_price = st.number_input(
     "Enter Stop Loss Price",
     step=0.01,
-    format="%.2f"
+    format="%.5f"
 )
 
 # Button
