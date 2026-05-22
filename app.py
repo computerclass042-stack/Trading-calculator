@@ -26,7 +26,7 @@ risk_percentage = st.number_input(
 current_price = st.number_input(
     "Enter Current Price / Entry Price",
     step=0.01,
-    format="%.2f"
+    format="%.5f"
 )
 
 stoploss_price = st.number_input(
